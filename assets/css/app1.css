@@ -35,17 +35,25 @@ footer a {
 .header-container img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 .header-container h1 {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3em;
 }
+
+.header-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
 
 .wave {
   background: linear-gradient(to left, #00c6ff, #328eff);
